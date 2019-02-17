@@ -7,59 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TableLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="429dp"
-        android:layout_marginBottom="731dp"
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </TableLayout>
-
-    <android.support.design.widget.TabLayout
-        android:layout_width="0dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="683dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:tabBackground="@color/colorPrimaryDark"
-        app:tabGravity="fill"
-        app:tabIndicatorAnimationDuration="@android:integer/config_shortAnimTime"
-        app:tabIndicatorColor="@color/colorAccent"
-        app:tabMode="fixed"
-        app:tabTextColor="@android:color/background_light">
-
-        <android.support.design.widget.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Leader Board" />
-
-        <android.support.design.widget.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Profile" />
-
-    </android.support.design.widget.TabLayout>
-
+        app:menu="@menu/navigation" />
 </android.support.constraint.ConstraintLayout>

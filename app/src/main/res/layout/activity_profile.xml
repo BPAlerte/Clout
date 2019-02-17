@@ -57,4 +57,12 @@
         android:text="Name"
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="271dp" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/navigation" />
+
 </android.support.constraint.ConstraintLayout>
