@@ -11,6 +11,9 @@
         android:id="@+id/navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#B215AB"
+        app:itemIconTint="@drawable/nav_item_background"
+        app:itemTextColor="@drawable/nav_item_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/navigation" />
 </android.support.constraint.ConstraintLayout>

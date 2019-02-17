@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "929742509617",
+    "firebase_url": "https://clout-e32e1.firebaseio.com",
+    "project_id": "clout-e32e1",
+    "storage_bucket": "clout-e32e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929742509617:android:ede13557ec263416",
+        "android_client_info": {
+          "package_name": "com.cloutgang.clout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929742509617-1ifqvu8057keqo8sc50dtfptnhmh0kpt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloutgang.clout",
+            "certificate_hash": "55e2f069b3f2cd7f1ffc1401425dcab0ec7825ba"
+          }
+        },
+        {
+          "client_id": "929742509617-h8ilprdg2mrjsrqb7h3pghloce1harov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDua6uGkoDfJxDjRZnuxy_v8hc_7vF3QZg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929742509617-h8ilprdg2mrjsrqb7h3pghloce1harov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
