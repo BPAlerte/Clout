@@ -29,7 +29,7 @@ public class LeaderBoard_Follow extends AppCompatActivity {
         }
     };
 
-    private ViewPager mViewPager;
+    private class ViewPager mViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,8 +41,11 @@ public class LeaderBoard_Follow extends AppCompatActivity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         navigation.setSelectedItemId(R.id.navigation_profile);
 
+        mViewPager = (ViewPager) findViewById(R.id.container)
+
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+        setupViewPager(mViewPager);
     }
 
     private void setupViewPager(ViewPager viewPager){
