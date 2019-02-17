@@ -5,4 +5,6 @@
     <color name="colorAccent">#D81B60</color>
     <color name='colorPurple'>#410C37</color>
     <color name='colorGold'>#DFB140</color>
+    <color name='colorPurpleSecond'>#663C5E</color>
+    <color name="colorCloutDown">#D5104C</color>
 </resources>
