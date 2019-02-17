@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Profile">
+    tools:context=".Profile_User">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteY="254dp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/userImage"
         android:layout_width="230dp"
         android:layout_height="235dp"
         android:layout_marginStart="32dp"
