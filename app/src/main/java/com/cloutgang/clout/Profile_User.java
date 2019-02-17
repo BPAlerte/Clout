@@ -16,9 +16,9 @@ public class Profile_User extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_profile:
-                    startActivity(new Intent(Profile_User.this, LeaderBoard_Follow.class));
                     return true;
                 case R.id.navigation_leaderboard:
+                    startActivity(new Intent(Profile_User.this, LeaderBoard_Follow.class));
                     return true;
             }
             return false;
@@ -32,7 +32,7 @@ public class Profile_User extends AppCompatActivity {
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-        navigation.setSelectedItemId(R.id.navigation_leaderboard);
+        //navigation.setSelectedItemId(R.id.navigation_leaderboard);
 
     }
 
